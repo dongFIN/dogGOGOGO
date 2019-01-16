@@ -1,0 +1,109 @@
+.local1{
+    margin: 250px 0 0 180px;
+}
+.move12{
+    animation-name: step12;
+    animation-duration: 2.5s;
+}
+@keyframes step12{
+    from{
+        margin: 250px 0 0 180px;
+    }
+    to{
+        margin: 220px 0px 0 890px;
+    }
+}
+.local2{
+    margin: 220px 0px 0 890px;
+}
+.move23{
+    animation-name: step23;
+    animation-duration: 1.5s;
+}
+@keyframes step23{
+    from{
+        margin: 220px 0px 0 890px;
+    }
+    to{
+        margin: 190px 0px 0 650px;
+    }
+}
+.local3{
+    margin: 190px 0px 0 650px;
+}
+.move34{
+    animation-name: step34;
+    animation-duration: 1.5s;
+}
+@keyframes step34{
+    from{
+        margin: 190px 0px 0 650px;
+    }
+    to{
+        margin: 150px 0px 0 250px;
+    }
+}
+.local4{
+    margin: 150px 0px 0 250px;
+}
+
+.move21{
+    animation-name: step12;
+    animation-duration: 2.5s;
+    animation-direction: reverse
+}
+.move32{
+    animation-name: step23;
+    animation-duration: 1.5s;
+    animation-direction: reverse
+}
+.move43{
+    animation-name: step34;
+    animation-duration: 1.5s;
+    animation-direction: reverse
+}
+.Start{
+    animation-name: Start1;
+    animation-duration: 1.5s;
+}
+@keyframes Start1{
+    0%{
+        height: 90px;
+        width: 90px;
+    }
+    50%{
+        height: 180px;
+        width: 180px;
+    }
+    100%{
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@keyframes JUMP{
+    from{
+        font-size: 18px;
+    }
+    to{
+        font-size: 20px;
+    }
+}
+
+@keyframes DogEnd{
+    from{
+        transform: rotate(5deg);
+    }
+    to{
+        transform: rotate(-5deg)
+    }
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background-color: rgb(241, 237, 206);
+    text-align: center; 
+    font-family: '微軟正黑體';
+    font-size: 16px;
+}
+.container{
+    text-align: center;
+    margin-left: 15%;
+}
+.listpic img{
+    display: inline-block;
+    margin: 10px;
+    width: 30%;
+}
+.phone{
+    display: none;
+}
+h1{
+    padding: 5px 20px;
+    font-size: 36px;
+    border-bottom: 2px solid #999999;
+    display: inline-block;
+    margin: 10px 0 10px 0;
+}
+.pic_dog{
+    height: 70vh;
+    background-image: url("pic/咚咚.png");
+    background-size: 70%; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.choiceTab{
+    background-color:rgba(255, 255, 255, 0.5);
+    width: 80%;
+    height: 100%;
+    position: relative;
+    border-radius: 50px;
+}
+.choiceTab ul{   /*消除list格式*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.choiceTab button{
+    font-family: "Microsoft JhengHei";
+    font-size: 24px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;  /*當滑鼠移上去時的圖案 */
+    /* border-radius: 20px; */
+}
+button.sent_btn{
+    position: absolute;
+    bottom: 30px;
+    left: 45%;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 149, 149);
+    color: white;
+    border: 2px solid white;
+    outline: none;
+}
+button.sent_btn:hover{
+    background-color: rgb(233, 95, 95);
+}
+.choiceTab .meau {
+    display: none;    /*未移至button前隱藏*/
+    position: absolute;
+    background-color: white;
+    
+}
+.choiceTab li{              /*所有li格式*/
+    text-align: left;
+    width: 80px;
+    border: 1px solid rgb(192, 191, 192);
+    padding: 5px 10px;
+}
+.List{
+    margin: 20px 0 20px 0;
+    width: 80%;
+    display: absolute;
+    font-size: 24px;
+    left: 0;
+}
+.listpic{
+    width: 80%;
+}

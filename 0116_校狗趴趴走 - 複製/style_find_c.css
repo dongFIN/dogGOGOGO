@@ -1,0 +1,139 @@
+
+/*color格式*/
+.choiceTab .dropdown_color{    /*位置定位*/
+    position: absolute;
+    display: inline-block;  
+    top: 180px;
+    left: 210px;
+    z-index: 2;
+}
+.choiceTab .color_btn{        /*按鈕*/
+    background-color: rgb(255, 255, 255);
+    color: #757575;
+    border: 2px solid #757575;
+}
+.dropdown_color:hover .meau{      /*移至按鈕時顯示meau*/
+    display: block;
+}
+.dropdown_color:hover button{     /*移至按鈕時按鈕變色*/
+    background-color: #757575;
+    color: white;
+    border: 2px solid #757575;
+}
+.dropdown_color .meau li:hover{   /*移至選單時選單變色*/
+    background-color: #757575;
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+}
+
+/*ear格式*/
+.choiceTab .dropdown_ear{     /*位置定位*/
+    position: absolute;
+    display: inline-block;
+    right: 100px;
+    top: 50px;
+}
+.choiceTab .ear_btn{        /*按鈕*/
+    background-color: white;
+    color: #757575;
+    border: 2px solid #757575;
+}
+.dropdown_ear:hover .meau{      /*移至按鈕時顯示meau*/
+    display: block;
+}
+.dropdown_ear:hover button{     /*移至按鈕時按鈕變色*/
+    background-color: #757575;
+    color: white;
+    border: 2px solid #757575;
+}
+.dropdown_ear .meau li:hover{   /*移至選單時選單變色*/
+    background-color: #757575;
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+}
+
+/*tail格式*/
+.choiceTab .dropdown_tail{     /*位置定位*/
+    position: absolute;
+    display: inline-block; 
+    left: 80px;
+    top: 60px;
+}
+.choiceTab .tail_btn{        /*按鈕*/
+    background-color: white;
+    color: #757575;
+    border: 2px solid #757575;
+}
+.dropdown_tail:hover .meau{      /*移至按鈕時顯示meau*/
+    display: block;
+}
+.dropdown_tail:hover button{     /*移至按鈕時按鈕變色*/
+    background-color: #757575;
+    color: white;
+    border: 2px solid #757575;
+}
+.dropdown_tail .meau li:hover{   /*移至選單時選單變色*/
+    background-color: #757575;
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+}
+
+/*collar格式*/
+.choiceTab .dropdown_collar{     /*位置定位*/
+    position: absolute;
+    display: inline-block; 
+    right: 100px;
+    top: 220px;
+}
+.choiceTab .collar_btn{        /*按鈕*/
+    background-color: white;
+    color: #757575;
+    border: 2px solid #757575;
+}
+.dropdown_collar:hover .meau{      /*移至按鈕時顯示meau*/
+    display: block;
+}
+.dropdown_collar:hover button{     /*移至按鈕時按鈕變色*/
+    background-color: #757575;
+    color: white;
+    border: 2px solid #757575;
+}
+.dropdown_collar .meau li:hover{   /*移至選單時選單變色*/
+    background-color: #757575;
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+}
+
+/*other格式*/
+.choiceTab .dropdown_other{     /*位置定位*/
+    position: absolute;
+    display: inline-block; 
+    left: 80px;
+    top: 280px;
+}
+.choiceTab .other_btn{        /*按鈕*/
+    background-color: white;
+    color: #757575;
+    border: 2px solid #757575;
+}
+.choiceTab .dropdown_other .meau li{
+    width: 230px;
+}
+.dropdown_other:hover .meau{      /*移至按鈕時顯示meau*/
+    display: block;
+}
+.dropdown_other:hover button{     /*移至按鈕時按鈕變色*/
+    background-color: #757575;
+    color: white;
+    border: 2px solid #757575;
+}
+.dropdown_other .meau li:hover{   /*移至選單時選單變色*/
+    background-color: #757575;
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+}

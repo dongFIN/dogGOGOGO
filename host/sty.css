@@ -1,0 +1,110 @@
+
+.big{
+    height: 550px;
+    width: 100%;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    background-color: rgb(241, 237, 206);
+}
+.body1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.body2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.body3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.body4{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.body5{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.bottomLip{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.leftEar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.leftEye{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.leftEye_back{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.leftFace{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.leftFace2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.leftMouth{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.nose{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.rightEye{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.rightEye_back{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.rightFace{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.rightMouth{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.rigthEar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.tongue{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.topLip{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

@@ -1,0 +1,82 @@
+@keyframes tagOn{
+    100%{
+        margin-top: 5px;
+        font-size: 22px;
+        border-radius: 10px 10px 0px 0px;
+        background-color: #5b8e7d;
+    }
+}
+@keyframes tagOff{
+    100%{
+        margin-top: 5px;
+        font-size: 21px;
+    }
+}
+body{
+    margin: 0;
+    background-color: rgb(241, 237, 206);
+    font-family: "微軟正黑體";
+    height: 100vh;
+}
+.head{
+    height: 150px;
+}
+.wrap{
+    z-index: 20;
+    text-align: center;
+    background-color:#3a3a3a;
+    font-size: 21px;
+    height: 140px;
+    width:100%;
+    position: fixed ;
+    top: 0;
+}
+.logo img{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 0;
+}
+.tags{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-around;
+}
+.tag{
+    height: 31px;
+    line-height: 31px;
+    width:130px;
+    color: white;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 7px;
+}
+footer{
+    width: 100%;
+    height: 205px;
+    background-color: #3a3a3a;
+}
+footer div{
+    float: left;
+    width: 22.5%;
+    margin-left:10%;
+    padding-top: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #868686;
+}
+.club{
+    font-size: 16px;
+    color: #b4b4b4;
+}
+footer a{
+    text-decoration: none;
+    color: #74bea6;
+}
+footer img{
+    margin-top: -30px;
+    margin-left: -50px;
+    height: 180px;
+}

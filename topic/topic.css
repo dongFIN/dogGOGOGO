@@ -1,0 +1,177 @@
+.head{
+    float: top;
+}
+body{
+    height: 2000px;
+}
+.bgPic{
+    height: 120vh;
+    width: 100%;
+    margin-top:-300px;
+    background-image: url('Images/bgPic.JPG');
+    background-size: 100%;
+    z-index: -10;
+    position: fixed;
+    left :0;
+}
+.space{
+    width: 100%;
+    height:600px;
+}
+.content{
+    z-index: 10;
+    width: 100%;
+}
+.content .logo{
+    height:550px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+.content .logo img{
+    height:550px;
+    width: 550px;
+}
+.content .logo .logoSpace{
+    height:500px;
+    width: 700px;
+}
+.artical{
+    padding-top: 20px;
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(241, 237, 206);
+}
+.articalWrap{
+    margin: 0 auto;
+    width:75%;
+    padding: 50px;
+}
+.articalCont1{
+    height: 300px;
+    width: 580px;
+    background-color: #74bea7;
+    box-shadow:-4px 4px 12px -1px rgba(20%,20%,40%,0.5);
+    position: relative;
+    margin-top:-350px;
+    margin-bottom: 150px;
+    left: 400px;
+    padding: 20px 40px 40px 40px;
+    font-size: 25px;
+    text-align: left;
+}
+.D{
+    /* margin-top: -70px; */
+    height: 440px;
+    width: 420px;
+    background-color: #f4e285;
+    position: relative;
+    box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+}
+.D img{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: 68px;
+    margin-left: 10px;
+    transform: rotate(268deg);
+}
+.L{
+    height: 410px;
+    width: 500px;
+    background-color: #f4e285;
+    position: relative;
+    left: 560px;
+    margin-top:-430px;
+}
+.L img{
+    padding: 15px;
+    height: 380px;
+    width: 470px;
+}
+.F{
+    height: 490px;
+    width: 400px;
+    left: 20px;
+    background-color: #f4e285;
+    position: relative;
+}
+.F img{
+    padding: 20px;
+    margin-left: 30px;
+    height: 460px;
+    width: 300px; 
+    top: 0px;
+    position: relative;
+    transform: rotate(-1deg);
+}
+.W{
+    height: 400px;
+    width: 490px;
+    background-color: #f4e285;
+    position: relative;
+    left: 560px;
+    margin-top:-430px;
+}
+.W img{
+    padding: 20px;
+    height: 360px;
+    width: 450px;
+}
+.B{
+    height: 380px;
+    width: 500px;
+    background-color: #f4e285;
+    position: relative;
+}
+.B img{
+    padding: 25px;
+    height: 300px;
+    width: 470px; 
+    position: relative;
+}
+.N{
+    height: 430px;
+    width: 400px;
+    background-color: #f4e285;
+    position: relative;
+    left: 560px;
+    margin-top:-370px;
+}
+.N img{
+    margin-left: 120px;
+    margin-top: 25px;
+    height: 370px;
+    width: 250px;
+}
+.articalCont2{
+    z-index: 12;
+    height: 300px;
+    width: 580px;
+    background-color: #6ca190;
+    box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+    position: relative;
+    left: -10px;
+    padding: 20px 40px 40px 40px;
+    text-align: left;
+}
+.Name{
+    font-size: 32px;
+    font-weight: bold;
+    color: #272727;
+}
+.articalCont1 .Name{
+    padding-left: 20px;
+}
+.articalCont2 .Name{
+    padding-left: 20px;
+}
+.words{
+    margin-top: 10px;
+    font-size: 25px;
+    line-height: 40px;
+    color: #1b1b1b;
+}
+
+
